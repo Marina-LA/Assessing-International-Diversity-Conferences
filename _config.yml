@@ -4,21 +4,21 @@ markdown: kramdown
 # URL of the Site
 url: ''
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 
+baseurl:
 
 # Title of the Site
 title: Study of distributed systems conferences
 # Description of the Site
 description: This research project aims to analyze the diversity of countries from various conferences in the field of distributed systems.
 # URL of Image of the Site
-site-image: https://github.com/Marina-LA/Assessing-International-Diversity-Conferences/assets/images/decoration/Main.png
+site-image: https://github.com/Marina-LA/Assessing-International-Diversity-Conferences/assets/images/Decoration/Main.png
 # Keywords of the Site
 site-keywords: Site, Template, Theme
 # URL for the Image of custom Favicon
 favicon-url: https://raw.githubusercontent.com/Marina-LA/Study-of-Distributed-Systems-Conferences/master/img/Decoration/icon_v2.png
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://raw.githubusercontent.com/Marina-LA/Study-of-Distributed-Systems-Conferences/master/img/Decoration/Main.png
+heroimage: https://github.com/Marina-LA/Assessing-International-Diversity-Conferences/assets/images/Decoration/Main.png
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
