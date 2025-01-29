@@ -3,7 +3,7 @@ layout: post
 title: "Countries"
 categories: countries
 permalink: /country-stats
-post-image: "https://raw.githubusercontent.com/Marina-LA/Study-of-Distributed-Systems-Conferences/master/img/Decoration/World_Drawing.png"
+post-image: "/assets/images/Decoration/World_Drawing.png"
 description: In this section, all results related to countries are presented. These include both the number of countries that have participated in the different conferences, as well as the representation of continents in the conferences.
 ---
 

@@ -3,8 +3,8 @@ layout: post
 title: "Program Committee"
 categories: committee
 permalink: /committee-stats
-post-image: "https://raw.githubusercontent.com/Marina-LA/Study-of-Distributed-Systems-Conferences/master/img/Decoration/Piechart_Drawing.png"
-description: In the following section, the endogamy index will be displayed, calculated to show the percentage of program committee members publishing papers during the same period in which they serve as committee members. The diversity of countries among the members of the different conferences will also be shown.
+post-image: "/assets/images/Decoration/Piechart_Drawing.png"
+description: 
 ---
 
 # How many members of the program committee have published a paper in a certain year? 

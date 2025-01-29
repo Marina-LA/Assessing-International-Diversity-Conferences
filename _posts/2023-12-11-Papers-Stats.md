@@ -3,7 +3,7 @@ layout: post
 title: "Papers"
 categories: papers
 permalink: /papers-stats
-post-image: "https://raw.githubusercontent.com/Marina-LA/Study-of-Distributed-Systems-Conferences/master/img/Decoration/Linechart_Drawing.png"
+post-image: "/assets/images/Decoration/Linechart_Drawing.png"
 description: In this section, the results obtained regarding papers are presented, such as the number of papers published per year or the percentage of papers that include institutions from certain countries.
 ---
 

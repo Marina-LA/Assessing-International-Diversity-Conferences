@@ -7,18 +7,18 @@ url: ''
 baseurl:
 
 # Title of the Site
-title: Study of distributed systems conferences
+title: Assessing the International Diversity of Computer Science Conferences
 # Description of the Site
-description: This research project aims to analyze the diversity of countries from various conferences in the field of distributed systems.
+description: "This project aims to assess the international diversity of computer science conferences by analyzing the geographical distribution of authors and institutions of top-tier conferences."
 # URL of Image of the Site
-site-image: https://github.com/Marina-LA/Assessing-International-Diversity-Conferences/assets/images/Decoration/Main.png
+site-image: /assets/images/Decoration/Main.png
 # Keywords of the Site
 site-keywords: Site, Template, Theme
 # URL for the Image of custom Favicon
-favicon-url: https://raw.githubusercontent.com/Marina-LA/Study-of-Distributed-Systems-Conferences/master/img/Decoration/icon_v2.png
+favicon-url: /assets/images/Decoration/icon_v2.png
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://github.com/Marina-LA/Assessing-International-Diversity-Conferences/assets/images/Decoration/Main.png
+heroimage: /assets/images/Decoration/Main.png
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
