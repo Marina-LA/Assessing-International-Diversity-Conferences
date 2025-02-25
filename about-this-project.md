@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: post
 title: "About This Project"
 permalink: /about-this-project
 ---

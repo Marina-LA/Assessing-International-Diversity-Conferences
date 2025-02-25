@@ -72,3 +72,22 @@ hr {
         }
     }
 }
+
+.pair-image-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pair-image-container img {
+    width: 100%;
+    max-width: calc(50% - 10px);
+    height: auto;
+}
+
+.separator-line {
+    border: 0;
+    border-top: 2px solid #d3d3d3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
