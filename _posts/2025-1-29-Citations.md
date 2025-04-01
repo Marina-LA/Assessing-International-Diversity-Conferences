@@ -3,14 +3,14 @@ layout: post
 title: "Citations"
 permalink: /citations
 post-image: "/assets/images/Decoration/Piechart_Drawing.png"
-description: 
+description: Explore how citation patterns vary across computer systems conferences. Less diverse conferences predominantly reference American research, while more internationally diverse events recognize a broader range of contributions from Europe and Asia.
 ---
 
-Los graficos que se mostraran a continuación han sido realizados a partir de los datos de los cuales se dispone de información, sin tener en cuenta el 30%  de los datos de los cuales no tenemos información relacionada con las citas. Para más información respecto a este tema vea [otained data]({{ site.baseurl }}{{ site.url }}{{ site.posts | where: "title", "Obtained Data" | map: "url" | first }}).
+The graphs shown below have been created using the available data, excluding the 30% of citation data for which we lack information. For more details on this topic, see [obtained data]({{ site.baseurl }}{{ site.url }}{{ site.posts | where: "title", "Obtained Data" | map: "url" | first }}).
 
-## Que consideramos como citations?
+## What do we consider as citations?
 
-Consideramos como citations todos los articulos, papers, libros y otros trabajos que han sido citados por un paper de conferencia, es decir, por un accepted paper. De este modo, si decimos "citations de NSDI" nos estamos refiriendo a los articulos, papers, libros, etc. que han sido citados por los papers publicados a lo largo de los onze años estudiados (2012-2023) en la conferencia NSDI. 
+We consider citations to include all articles, papers, books, and other works that have been cited by a conference paper, meaning an accepted paper. Therefore, when we refer to "citations of NSDI," we are talking about the articles, papers, books, etc., that have been cited by the papers published over the eleven years studied (2012-2023) in the NSDI conference.
 
 ### NSDI
 
@@ -81,3 +81,9 @@ Consideramos como citations todos los articulos, papers, libros y otros trabajos
     <img src="/assets/images/Citations/Radial-plots/EuroPar.png" alt="Accpeted Papers Continent Distribution vs Cited Papers Continent Distribution">
     <img src="/assets/images/Citations/Internal-external-citations/Euro-Par.png" alt="Internal and External Citations from most citing countries in the conference">
 </div>
+
+## Analyzing the Results
+
+We have also analyzed the international diversity of citations across different conferences, revealing distinct citation patterns. Less diverse conferences, such as NSDI and SIGCOMM, tend to cite mostly American papers, while more diverse conferences, like ICDCS and CCGRID, show a broader geographic distribution of citations, with a higher proportion of European and Asian papers being referenced.
+
+It is not surprising that conferences with a strong presence of American researchers also cite American papers more frequently. The United States continues to lead in many research fields, which is reflected in the citation patterns of most conferences. However, American conferences generally have lower citation rates for non-American publications, often overlooking research from international conferences. In contrast, more globally diverse conferences are citing non-American papers at higher rates, indicating a broader recognition of research contributions from different regions.

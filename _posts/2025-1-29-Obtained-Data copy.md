@@ -6,63 +6,70 @@ post-image: "/assets/images/Decoration/Top_Drawing.png"
 description: Get to know the data used for the analyses. In this section, the data obtained will be detailed, along with some of the challenges we faced while collecting them.
 ---
 
-Para realizar este estudio se han obtenido papers a partir del año 2012 hasta el 2023. Estos papers pertenecen a 10 conferencias distintas (NSDI, SoCC, Middleware, EuroSys, ICDCS, CCGRID, Euro-Par, SIGCOMM, IEEE Cloud y IC2E). A continuación, se mostrará más en detalle la cantidad de datos que se ha recolectado para los accepted papers, las citas y los miembros del Program Committee.
+To conduct this study, papers have been collected from the year 2012 to 2023. These papers belong to 10 different conferences (NSDI, SoCC, Middleware, EuroSys, ICDCS, CCGRID, Euro-Par, SIGCOMM, IEEE Cloud, and IC2E). Below, more details will be provided on the amount of data collected for the accepted papers, citations, and Program Committee members.
 
 # Accepted Papers
 
-Los accpeted papers son los papers que han sido publicados en cada una de las conferèncias. Estos datos se han obtenido mediante el crawler. En total se han obtenido 6800 papers publicados entre los 11 años estudiados de las 10 conferencias. La tabla que se muestra a continuación detalla el numero de papers que se han obtenido para cada una de las conferencias en cada uno de los 10 años estudiados.
+The accepted papers are the papers that have been published in each of the conferences. These data have been obtained using the crawler. In total, 6,800 papers have been collected over the 11 years studied from the 10 conferences. The table below details the number of papers obtained for each conference in each of the 10 years studied.
 
-<img src="/assets/images/Obtained-data/TotalAcceptedPapers.png" alt="Number of Accepted Papers for each Conference" width="1000" style="display: block; margin: auto;">
+<img src="/assets/images/Obtained-data/TotalAcceptedPapers.png" alt="Number of Accepted Papers for each Conference"  style="display: block; margin: auto; max-width: 100%">
 
 ## Accepted Papers Missing Data
 
-Aunque en la gran mayoria de los casos se ha conseguido obtener todos los datos necesarios de los accepted papers, se han dado situaciones donde obtener algunos de estos datos no ha sido posible. En consequencia, al realizar la asignacion de un paper a un continente, hay papers donde esta asignacion no se ha podido realizar por falta de datos. En la tabla que se muestra a continuación se datalla el porcentaje de papers de cada conferencia que no tienen ningún continente asignado, por lo que en los analisis realizados posteriormente dicho porcentaje de papers no se tendra en cuenta.
+Although in most cases it has been possible to obtain all the necessary data for the accepted papers, there have been situations where obtaining some of these data was not possible. Consequently, when assigning a paper to a continent, there are cases where this assignment could not be made due to missing data. The table below details the percentage of papers from each conference that do not have any assigned continent. As a result, in the subsequent analyses, this percentage of papers will not be taken into account.
 
-<img src="/assets/images/Obtained-data/MissingAcceptedPapersData.png" alt="Percentage of Papers with Missing Data" width="200" style="display: block; margin: auto;">
+<img src="/assets/images/Obtained-data/MissingAcceptedPapersData.png" alt="Percentage of Papers with Missing Data" width="20%" style="display: block; margin: auto;">
 
 # Citations
 
-Para este estudio hemos considerado los cited papers como cualquier documento que se haya citado o referenciado en un los accepted papers de las conferencias. Por este motivo no simplemente estamos hablando de papers de conferencias, sino que también podemos encontrar articulos de revistas, libros, etc.
-En total se han obtenido 160666 datos de citas entre todos los accepted papers de las 10 conferencias. En la tabla que se muestra a continuación se pueded observar de forma detallada el nuemro de datos de citas que se han obtenido para cada uno de los años en las 10 conferencias estudiadas. Cabe destacar que hay datos de citas que se pueden estar contando dos veces, al ser citados en distintos años y distintas conferèncias. Sin embargo, para los analisis realizados, los papers que se repiten dentro de una misma conferencia en distintos años solo han sido contados una sola vez.
+For this study, we have considered cited papers as any document that has been cited or referenced in the accepted papers of the conferences. For this reason, we are not only referring to conference papers but also to journal articles, books, etc.
 
-<img src="/assets/images/Obtained-data/TotalCitations.png" alt="Number of Citations for each Conference" width="1000" style="display: block; margin: auto;">
+A total of 160,666 citation data points have been collected from all the accepted papers of the 10 conferences. The table below provides a detailed view of the number of citation data points obtained for each year in the 10 studied conferences. It is important to note that some citation data may be counted twice if they were cited in different years and different conferences. However, for the analyses conducted, papers that were repeated within the same conference in different years were counted only once.
+
+<img src="/assets/images/Obtained-data/TotalCitations.png" alt="Number of Citations for each Conference"  style="display: block; margin: auto; max-width: 100%">
 
 ## Citations Missing Data
 
-Tal y como se ha observado, hay una gran cantidad de datos referntes a las citas, por lo que obtener información de cada uno de estos ha sido muy complicado. A consequencia de esto, el porcentage de datos de citas sin los datos necesarios para poder realizar el posterior analisis es muy elevado.
-Para mitigar este problema, hemos aplicado dos estrategias distintas.
+As observed, there is a large amount of citation data, making it very challenging to obtain complete information for each of them. As a result, the percentage of citation data lacking the necessary details for further analysis is very high.
 
-### First Approach
+To mitigate this issue, we implemented two additional steps.
 
-Primero intentamos que el numero de accepted papers sin datos de citas fuera menor al 10%. En la mayoria de las conferencias se puedo cumplir este requisito, menos en una, NSDI. Para poder solucionar esto optamos por no incluir los papers de distintos años, intentando que el numero de accepted papers que no tubieran información repecto a los años  fuera menor del 10%.
-Es por esto que se excluyeron los accepted papers de los años 2014, 2015 y 2022 de NSDI para los analisis de las citas.
+### First Step
 
-Después de realizar este cambio, el numero de datos de citas del que se dispuso fue de 124228. Assumiendo todos estos datos de citas, el porcentage de citas que no disponen de la suficiente información para realizar los analisis deseados sigue siendo muy elevado. En la tabla que se muestra a continuación se pueden ver dichos porcentages para cada una de las 10 conferencias.
+First, we aimed to ensure that the number of accepted papers without citation data was less than 10%. In most conferences, this requirement was met, except for one: NSDI. To address this, we chose to exclude papers from different years, ensuring that the number of accepted papers lacking citation information for certain years remained below 10%.
 
-<img src="/assets/images/Obtained-data/MissingCitationsData.png" alt="Percentage of Papers with Missing Citations" width="200" style="display: block; margin: auto;">
+For this reason, the accepted papers from the years 2014, 2015, and 2022 of NSDI were excluded from the citation analysis.
 
-### Second Approach
+After implementing this change, the number of available citation data points was reduced to 124,228. Even with this dataset, the percentage of citation data lacking sufficient information for analysis remained very high. The table below shows these percentages for each of the 10 conferences.
 
-Tal y como se observa en la tabla anterior, el porcentage de datos de citas sin la suficiente información necesaria sigue siendo muy elevado (más de un 30% en varias conferencias), por lo que optamos por estudiar la distribución de los datos en una pequeña muestra de datos sin información.
+<img src="/assets/images/Obtained-data/MissingCitationsData.png" alt="Percentage of Papers with Missing Citations" width="20%" style="display: block; margin: auto;">
 
-Lo que decidimos realizar fue lo siguiente:
+### Second Step
 
-1. Se escogio al azar una muestra del 10% de los datos de citas que no cumplian con los requisitos. Es decir, datos de citas sin la información necesaria para realizar el estudio. Solo se realizo esto para el año 2023 de las conferencias de NSDI y ICDCS.
-2. Para este 10% de los datos se obtuvo la información necesaria de forma manual.
-3. Se analizo la distibución de dichos datos usando el metodo de [Chi-Square Godness-of-Fit](https://en.wikipedia.org/wiki/Goodness_of_fit) para evaluar si los datos seguian una distribución parecida.
+As seen in the previous table, the percentage of citation data lacking sufficient necessary information remained very high (over 30% in several conferences). Therefore, we opted to study the data distribution in a small sample of incomplete data.
 
-Los datos obtenidos mostraron que esta pequeña muestra de datos si seguia la distribución esperada (la distribución que siguen el resto de los datos de los cuales si se tiene información), por lo que determinamos que los resultados obtenidos en los analisis de las citas son validos pese al pequeño inconveniente de datos faltantes, ya que incluso si dispusieramos de dichos datos, el resultado seguiria la misma distribución.
+The steps we followed were:
+
+1. A random sample of 10% of the citation data that did not meet the requirements was selected. That is, citation data lacking the necessary information for the study. This was done only for the year 2023 for the NSDI and ICDCS conferences.
+
+2. The missing information for this 10% sample was manually collected.
+
+3. The distribution of these data was analyzed using the [Chi-Square Godness-of-Fit](https://en.wikipedia.org/wiki/Goodness_of_fit) method to evaluate whether the data followed a similar distribution.
+
+The results showed that this small data sample did follow the expected distribution (i.e., the distribution observed in the rest of the data for which we do have complete information). Therefore, we concluded that the results obtained in the citation analysis are valid despite the small issue of missing data. Even if we had access to the missing data, the results would still follow the same distribution.
 
 # Program Committee
 
-La obtención de los datos del program committee ha sido más complicada, siendo posible automatizarla, se ha realizado de forma manual. En consequencia, pueden existir pequeños errores en dichos datos fruto del error humano. No obstante, dichos datos han sido revisado numerosas veces para reducir estos errores.
-Otro problema con el que nos hemos encontrado al obtener estos datos es que en ciertos casos ha sido imposible obtener ninguna información sobre el program committee de una conferencia en un cierto año.
-En total, se ha obtenido un total de 12147 miembros del program committee. En la tabla que se muestra a continuación se puede observar de forma más detallada el nuemro de miembros del program committee obtenidos para cada una de las conferencias.
+The collection of program committee data has been more challenging. Although it was possible to automate the process, it was carried out manually. Consequently, there may be minor errors in the data due to human error. However, these data have been reviewed multiple times to minimize such errors.
 
-<img src="/assets/images/Obtained-data/TotalPCMembers.png" alt="Total Number of Program Committee Members per Conference" width="200" style="display: block; margin: auto;">
+Another issue encountered during data collection was that, in some cases, it was impossible to obtain any information about the program committee of a conference for a specific year.
+
+In total, 12,147 program committee members have been collected. The table below provides a more detailed view of the number of program committee members obtained for each conference.
+
+<img src="/assets/images/Obtained-data/TotalPCMembers.png" alt="Total Number of Program Committee Members per Conference" width="20%" style="display: block; margin: auto;">
 
 ## Committee Members Missing Data
 
-Para algunos de los miembros del program committee ha sido imposible obtener toda la información necesaria para realizar los analisis desados.
+For some program committee members, it was impossible to obtain all the necessary information for the desired analyses, as it could not be found. However, the only conference where the percentage of missing data exceeds 10% is Euro-Par, while for the rest of the conferences, this value does not exceed 1-2%.
 
-<img src="/assets/images/Obtained-data/MissingProgramCommitteeMembers.png" alt="Percentage of Members without data" width="200" style="display: block; margin: auto;">
+<img src="/assets/images/Obtained-data/MissingProgramCommitteeMembers.png" alt="Percentage of Members without data" width="20%" style="display: block; margin: auto;">

@@ -3,7 +3,7 @@ layout: post
 title: "Diversity Index"
 permalink: /diversity-index
 post-image: "/assets/images/Decoration/World_Drawing.png"
-description: 
+description: Discover how the Gini-Simpson index is used to measure diversity in top computer systems conferences. Explore how geographic distribution impacts accepted papers, citations, and program committees, revealing disparities in representation across continents.
 ---
 
 To quantify the diversity of the conferences, we used the [Gini-Simpson index](https://en.wikipedia.org/wiki/Diversity_index##Simpson_index), a variation of the Simpson diversity index widely used in Biology to measure species biodiversity in a given area. We applied it to determine the diversity of the conferences across four categories (North America, Europe, Asia, and Others) based on the number of papers published by each continent in the different conferences. The "Others" category includes all papers that do not belong to the three aforementioned continents but originate from other regions. This diversity was calculated for three distinct fields: accepted papers, the program committee, and cited papers.
