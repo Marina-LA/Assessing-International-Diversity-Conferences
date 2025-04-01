@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Accepted Papers"
+permalink: /accepted-papers
 post-image: "/assets/images/Decoration/Linechart_Drawing.png"
 description: Discover the dominance of the United States in top computer systems conferences over the past eleven years. Explore how geographic diversity varies across events, with some conferences maintaining a strong North American presence while others exhibit a more balanced international representation.
 ---

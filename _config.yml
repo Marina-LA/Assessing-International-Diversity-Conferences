@@ -2,9 +2,9 @@
 markdown: kramdown
 
 # URL of the Site
-url: 'Assessing-International-Diversity-Conferences '
+url: ''
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 
+baseurl: 'Assessing-International-Diversity-Conferences'
 
 # Title of the Site
 title: Assessing the International Diversity of Computer Science Conferences
