@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "About This Project"
-permalink: /about-this-project
+permalink: about-this-project
 ---
 
  In the last years, Asia has been experiencing a surge in research production that will considerably change the landscape of computing research. This shift inevitably leads to a greater participation of Asian researchers in accepted papers, citations and program committees. To study these pivotal changes and evaluate international diversity, we have analyzed the past 11 years of 10 international systems research conferences: NSDI, SIGCOMM, EuroSys, ICDCS, Middleware, SOCC, CCGrid, IC2E, IEEE Cloud and EuroPar. Our analysis focuses on accepted papers, Program Committee participation, and citation patterns, grouping the results by country and region. We discover a particularly lopsided international diversity in a subgroup of top-tier conferences (NSDI, SIGCOMM, SOCC) which suggests a greater need for more proactive efforts to attract and embrace diversity and inclusion in accordance with fair open science practices.
